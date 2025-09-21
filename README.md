@@ -8,9 +8,11 @@ It also recommends additional ingredients to make the recipes more delicious.
 - LangChain 
 - Gemini 2.5 Flash API  
 - Streamlit
-- Streamlit Lottie (for animations)  
+- Streamlit Lottie (for animations)
+## Preview Online
+https://recepie-generator-2412.streamlit.app/
 
-## Preview / Run the Project
+## Preview Locally
 
 ### Prerequisites
 Make sure to have VsCode and python installed
