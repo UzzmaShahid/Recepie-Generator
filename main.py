@@ -6,7 +6,7 @@ import json
 from streamlit_lottie import st_lottie
 
 load_dotenv()
-api_key =  os.getenv("GEMINI_API_KEY")
+api_key =  os.getenv("GEMINI_API_KEY")  or st.secrets["GEMINI_API_KEY"]
 
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.5-flash-lite")
