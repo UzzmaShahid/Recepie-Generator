@@ -5,7 +5,6 @@ It also recommends additional ingredients to make the recipes more delicious.
 
 ## Tech Stack
 - Python
-- LangChain 
 - Gemini 2.5 Flash API  
 - Streamlit
 - Streamlit Lottie (for animations)
