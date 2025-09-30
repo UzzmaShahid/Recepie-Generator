@@ -10,7 +10,6 @@ api_key =  os.getenv("GEMINI_API_KEY")  or st.secrets["GEMINI_API_KEY"]
 
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.5-flash-lite")
-
 # using animation
 def load_lottiefile(filepath: str):
     with open(filepath, "r") as f:
